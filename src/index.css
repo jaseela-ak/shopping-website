@@ -1,0 +1,39 @@
+
+
+*,*::before,*::after{
+margin: 0;
+padding:0;
+border: 0;
+outline: 0;
+list-style: none;
+text-decoration: none;
+box-sizing: border-box;
+}
+body{
+  font-family:'DM sans', sans-serif;
+  line-height: 1.7;
+overflow-x: hidden;
+
+}
+.container{
+  width: var(--container-width-lg);
+  max-width: 1920px;
+  margin-inline: auto;
+}
+h1,h2,h3,h4,h5{
+  line-height:1.5;
+}
+h1{
+  font-size: 2em;
+}
+h2{
+  font-size: 2em;
+}
+h5{
+  font-style: 0.2em;
+}
+/* img{
+  display: block;
+  object-fit:cover ;
+  width: 100%;
+} */

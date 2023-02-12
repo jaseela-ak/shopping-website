@@ -1,0 +1,22 @@
+.item_lists_card_container{
+    box-shadow: 0 4px 8px 0 #f0ecec33;
+    transition: 0.3s;
+    margin: auto;
+    height: 200px;
+    width: 350px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+.cardbody{
+    margin-left: 20px;
+    /* flex: 0 1 24%; */
+    padding: 2px 16px;
+    /* width: 100vh; */
+}
+
+.image_container{
+   max-width: 100%;;
+   object-fit: cover;
+}

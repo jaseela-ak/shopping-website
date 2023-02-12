@@ -1,0 +1,26 @@
+.form_container{
+    background-color: #EBF6F0;
+    width: 100%;
+}
+.content_container{
+    /* display: flex;
+    margin: auto;
+max-width:100%;
+position: relative; */
+display: flex;
+    /* justify-content: space-between; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-direction: column;
+    margin: 130px;
+   
+    border-color: black;
+    background-color: #ffff;
+}
+/* .content{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+} */

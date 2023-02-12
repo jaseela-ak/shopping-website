@@ -1,0 +1,35 @@
+.categories{
+    display: flex;
+}
+.categories_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3.6rem;
+    background-color: #EBF6F0;
+    width: 100vw;
+    margin: auto;
+
+    /* margin: 20px; */
+}
+.categories_lists{
+    display: flex;
+}
+.categories_link{
+    display: flex;
+    gap: 4rem;
+    font-size: 16px;
+}
+.product_lists_card_container{
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; */
+    max-width: 100%;
+    margin: auto;
+    /* width: 50%; */
+    display: flex;
+    row-gap: 4.5rem;
+    /* width: 400px; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
